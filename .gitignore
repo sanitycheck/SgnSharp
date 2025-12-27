@@ -1,0 +1,27 @@
+# Build outputs
+bin/
+obj/
+
+# Rider/JetBrains
+.idea/
+*.sln.iml
+*.sln.DotSettings.user
+
+# VS/VS Code
+.vs/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
+
+# NuGet packages (optional)
+*.nupkg
+*.snupkg
+packages/
+
+# Logs
+*.log
