@@ -1,13 +1,28 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-    <PropertyGroup>
-        <TargetFramework>net10.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-    </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>SgnSharp</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Dustin Mallory</Authors>
+    <Description>SGN encoder port for x86/x64 payloads.</Description>
+    <PackageTags>sgn;encoder;x86;x64;keystone</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/sanitycheck/SgnSharp.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/sanitycheck/SgnSharp</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
 
-    <ItemGroup>
-      <PackageReference Include="keystoneengine" Version="0.9.2" />
-    </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="keystoneengine" Version="0.9.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\\LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
