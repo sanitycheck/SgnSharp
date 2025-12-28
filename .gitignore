@@ -5,6 +5,8 @@ obj/
 # Rider/JetBrains
 .idea/
 *.sln.iml
+*.DotSettings.user
+*.sln.DotSettings.user
 *.sln.DotSettings.user
 
 # VS/VS Code
